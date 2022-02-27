@@ -384,55 +384,55 @@ int osip_via_to_str(const osip_via_t *via, char **dest) {
   return OSIP_SUCCESS;
 }
 
-void via_set_version(osip_via_t *via, char *version) {
+void osip_via_set_version(osip_via_t *via, char *version) {
   via->version = version;
 }
 
-char *via_get_version(osip_via_t *via) {
+char *osip_via_get_version(osip_via_t *via) {
   if (via == NULL)
     return NULL;
 
   return via->version;
 }
 
-void via_set_protocol(osip_via_t *via, char *protocol) {
+void osip_via_set_protocol(osip_via_t *via, char *protocol) {
   via->protocol = protocol;
 }
 
-char *via_get_protocol(osip_via_t *via) {
+char *osip_via_get_protocol(osip_via_t *via) {
   if (via == NULL)
     return NULL;
 
   return via->protocol;
 }
 
-void via_set_host(osip_via_t *via, char *host) {
+void osip_via_set_host(osip_via_t *via, char *host) {
   via->host = host;
 }
 
-char *via_get_host(osip_via_t *via) {
+char *osip_via_get_host(osip_via_t *via) {
   if (via == NULL)
     return NULL;
 
   return via->host;
 }
 
-void via_set_port(osip_via_t *via, char *port) {
+void osip_via_set_port(osip_via_t *via, char *port) {
   via->port = port;
 }
 
-char *via_get_port(osip_via_t *via) {
+char *osip_via_get_port(osip_via_t *via) {
   if (via == NULL)
     return NULL;
 
   return via->port;
 }
 
-void via_set_comment(osip_via_t *via, char *comment) {
+void osip_via_set_comment(osip_via_t *via, char *comment) {
   via->comment = comment;
 }
 
-char *via_get_comment(osip_via_t *via) {
+char *osip_via_get_comment(osip_via_t *via) {
   if (via == NULL)
     return NULL;
 

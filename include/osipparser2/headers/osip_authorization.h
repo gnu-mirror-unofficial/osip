@@ -57,9 +57,9 @@ struct osip_authorization {
   char *version;     /**< version (optional - NTLM) */
   char *targetname;  /**< targetname (optional - NTLM) */
   char *gssapi_data; /**< gssapi-data (optional - NTLM) */
-  char *crand;
-  char *cnum;
-  char *auth_param; /**< other parameters (optionnal) */
+  char *crand;       /**< crand (optional - NTLM) */
+  char *cnum;        /**< cnum (optional - NTLM) */
+  char *auth_param;  /**< other parameters (optionnal) */
 };
 
 #ifdef __cplusplus

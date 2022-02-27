@@ -89,66 +89,66 @@ int osip_via_clone(const osip_via_t *header, osip_via_t **dest);
  * @param header The element to work on.
  * @param value The value of the element.
  */
-void via_set_version(osip_via_t *header, char *value);
-#define osip_via_set_version via_set_version
+void osip_via_set_version(osip_via_t *header, char *value);
+#define via_set_version osip_via_set_version
 /**
  * Get the SIP version from a Via header.
  * @param header The element to work on.
  */
-char *via_get_version(osip_via_t *header);
-#define osip_via_get_version via_get_version
+char *osip_via_get_version(osip_via_t *header);
+#define via_get_version osip_via_get_version
 /**
  * Set the protocol in the Via element.
  * @param header The element to work on.
  * @param value The value of the element.
  */
-void via_set_protocol(osip_via_t *header, char *value);
-#define osip_via_set_protocol via_set_protocol
+void osip_via_set_protocol(osip_via_t *header, char *value);
+#define via_set_protocol osip_via_set_protocol
 /**
  * Get the protocol from a Via header.
  * @param header The element to work on.
  */
-char *via_get_protocol(osip_via_t *header);
-#define osip_via_get_protocol via_get_protocol
+char *osip_via_get_protocol(osip_via_t *header);
+#define via_get_protocol osip_via_get_protocol
 /**
  * Set the host in the Via element.
  * @param header The element to work on.
  * @param value The value of the element.
  */
-void via_set_host(osip_via_t *header, char *value);
-#define osip_via_set_host via_set_host
+void osip_via_set_host(osip_via_t *header, char *value);
+#define via_set_host osip_via_set_host
 /**
  * Get the host from a Via header.
  * @param header The element to work on.
  */
-char *via_get_host(osip_via_t *header);
-#define osip_via_get_host via_get_host
+char *osip_via_get_host(osip_via_t *header);
+#define via_get_host osip_via_get_host
 /**
  * Set the port in the Via element.
  * @param header The element to work on.
  * @param value The value of the element.
  */
-void via_set_port(osip_via_t *header, char *value);
-#define osip_via_set_port via_set_port
+void osip_via_set_port(osip_via_t *header, char *value);
+#define via_set_port osip_via_set_port
 /**
  * Get the port from a Via header.
  * @param header The element to work on.
  */
-char *via_get_port(osip_via_t *header);
-#define osip_via_get_port via_get_port
+char *osip_via_get_port(osip_via_t *header);
+#define via_get_port osip_via_get_port
 /**
  * Set the comment in the Via element.
  * @param header The element to work on.
  * @param value The value of the element.
  */
-void via_set_comment(osip_via_t *header, char *value);
-#define osip_via_set_comment via_set_comment
+void osip_via_set_comment(osip_via_t *header, char *value);
+#define via_set_comment osip_via_set_comment
 /**
  * Get the comment from a Via header.
  * @param header The element to work on.
  */
-char *via_get_comment(osip_via_t *header);
-#define osip_via_get_comment via_get_comment
+char *osip_via_get_comment(osip_via_t *header);
+#define via_get_comment osip_via_get_comment
 
 /**
  * Allocate and add a hidden parameter element in a list.
